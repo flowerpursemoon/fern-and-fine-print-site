@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Insurance Without the Headache: a free mini-course · Fern &amp; Fine Print</title>
+  <meta name="description" content="Fern &amp; Fine Print: insurance education, minus the headache. A free, 15-minute plain-English guide to health and life insurance basics. Educational only." />
+  <meta name="theme-color" content="#2E4A3B" />
+  <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500..700&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Nunito+Sans:ital,opsz,wght@0,6..12,400..800;1,6..12,400..800&display=swap" rel="stylesheet" />
+  <style>
+    :root{/* Fern & Fine Print brand tokens (from brand/fern-and-fine-print/palette/brand-tokens.css) */--ffp-fern:#2E4A3B;--ffp-paper:#F8F3E6;--ffp-frond:#7D9B76;--ffp-fiddle:#D5E2C8;--ffp-parch:#EADFC8;--ffp-clay:#A34E32;--ffp-ink:#1E2B24;--ffp-font-heading:'Fraunces',Georgia,serif;--ffp-font-body:'Nunito Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--ffp-font-accent:'Caveat','Comic Sans MS',cursive;/* page aliases */--night:var(--ffp-ink);--navy:var(--ffp-fern);--sky:var(--ffp-fern);--gold:var(--ffp-fiddle);--petal:var(--ffp-clay);--sage:var(--ffp-fiddle);--cream:var(--ffp-paper);--ink:var(--ffp-ink);--muted:var(--ffp-fern);--card:#FFFDF8;--line:var(--ffp-parch);--max:740px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:var(--ffp-font-body);color:var(--ink);background:var(--cream);line-height:1.6;font-size:17px}
+    a{color:var(--sky)}
+    .wrap{max-width:var(--max);margin:0 auto}
+    .brandbar{background:var(--card);border-bottom:1px solid var(--line);padding:.7rem 1.1rem}
+    .brandbar .wrap{display:flex;align-items:center;gap:.6rem}
+    .brandbar .name{font-family:var(--ffp-font-heading);font-weight:700;font-size:1.2rem;color:var(--navy);letter-spacing:.01em}
+    .brandbar .tag{font-size:.8rem;color:var(--muted);display:block;margin-top:-.1rem}
+    header.hero{background:linear-gradient(165deg,var(--ffp-ink) 0%,var(--ffp-fern) 70%);color:var(--ffp-paper);padding:2.25rem 1.25rem 2rem}
+    .hero-grid{display:grid;gap:1.5rem;align-items:center}
+    @media(min-width:720px){.hero-grid{grid-template-columns:1.25fr .75fr}}
+    .eyebrow{font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;font-weight:700}
+    h1{font-size:clamp(1.65rem,5vw,2.3rem);line-height:1.18;margin:0 0 .75rem}
+    .lede{opacity:.93;margin:0 0 1rem}
+    img.cover{width:100%;max-width:260px;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.35);justify-self:center}
+    .pill{display:inline-block;background:rgba(213,226,200,.14);border:1px solid var(--gold);color:var(--ffp-paper);padding:.35rem .8rem;border-radius:999px;font-size:.85rem;margin:.2rem .25rem .2rem 0}
+    .wave{height:8px;background:linear-gradient(90deg,var(--sky),var(--petal),var(--gold))}
+    h1,.card h2,.optin h2,.cta h2{font-family:var(--ffp-font-heading);font-weight:500;font-variation-settings:"SOFT" 100,"WONK" 0}
+    img.divider{display:block;margin:1.2rem auto;width:200px;height:auto;opacity:.9}
+    main{padding:1.25rem 1.1rem 3rem}
+    nav.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem;margin:1rem 0}
+    nav.toc ol{margin:.4rem 0 0;padding-left:1.3rem}
+    nav.toc li{margin:.2rem 0}
+    .card{background:var(--card);border-radius:14px;padding:1.25rem 1.3rem;margin:1rem 0;border:1px solid var(--line);box-shadow:0 2px 10px rgba(30,43,36,.06)}
+    .card h2{margin:0 0 .5rem;font-size:1.22rem;color:var(--navy);line-height:1.3}
+    .num{color:var(--petal);font-weight:800;margin-right:.35rem}
+    .time{font-size:.8rem;color:var(--muted);font-weight:600;margin-left:.3rem}
+    ul.t{margin:.5rem 0 0;padding-left:1.2rem}
+    ul.t li{margin:.4rem 0}
+    .tip{background:var(--ffp-fiddle);border-left:4px solid var(--ffp-frond);padding:.75rem 1rem;margin-top:.9rem;border-radius:0 8px 8px 0;font-size:.96rem}
+    .humor{color:var(--muted);font-style:italic;font-size:.94rem}
+    img.icons{display:block;width:100%;max-width:380px;margin:1rem auto;border-radius:12px}
+    .checklist label{display:flex;gap:.55rem;align-items:flex-start;padding:.35rem 0;cursor:pointer}
+    .checklist input{margin-top:.35rem;width:18px;height:18px;flex:none}
+    .btn{display:inline-block;background:var(--ffp-parch);color:var(--ffp-ink);font-weight:700;text-decoration:none;padding:.75rem 1.3rem;border-radius:999px;margin:.35rem .25rem;border:0;cursor:pointer;font-size:1rem;font-family:inherit}
+    .btn.ghost{background:transparent;color:var(--ffp-paper);border:1px solid var(--ffp-fiddle)}
+    .btn.navy{background:var(--navy);color:var(--ffp-paper)}
+    .cta{background:var(--night);color:var(--ffp-paper);border-radius:14px;padding:1.5rem 1.3rem;margin:1.75rem 0;text-align:center}
+    .cta h2{color:var(--ffp-paper);margin-top:0}
+    .optin{background:var(--card);border:2px solid var(--petal);border-radius:14px;padding:1.2rem 1.25rem;margin:1.25rem 0}
+    .optin h2{margin:0 0 .3rem;color:var(--navy);font-size:1.15rem}
+    .row{display:grid;gap:.7rem}
+    @media(min-width:560px){.row.two{grid-template-columns:1fr 1fr}}
+    .field label{display:block;font-size:.88rem;font-weight:600;margin-bottom:.2rem}
+    .field input{width:100%;padding:.7rem .8rem;border:1.5px solid var(--ffp-frond);border-radius:10px;font-size:1rem;font-family:inherit;background:var(--card)}
+    .consent{font-size:.82rem;color:var(--muted);margin:.8rem 0}
+    .consent label{display:flex;gap:.5rem;align-items:flex-start}
+    .consent input{margin-top:.25rem;flex:none}
+    .fine{font-size:.8rem;color:var(--muted)}
+    .msg{display:none;border-radius:10px;padding:.7rem .9rem;margin:.6rem 0;font-size:.93rem}
+    .msg.err{display:block;background:var(--ffp-paper);color:var(--ffp-clay);border:1px solid var(--ffp-clay)}
+    .msg.ok{display:block;background:var(--ffp-fiddle);color:var(--ffp-fern)}
+    .hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+    .about{display:grid;gap:1rem;align-items:start}
+    @media(min-width:600px){.about{grid-template-columns:150px 1fr}}
+    .about img{width:100%;max-width:150px;border-radius:12px;border:2px solid var(--sage)}
+    .sources{font-size:.85rem;color:var(--muted)}
+    .sources li{margin:.25rem 0}
+    footer{background:var(--night);color:var(--ffp-fiddle);padding:1.5rem 1.25rem 2.5rem;font-size:.86rem}
+    footer a{color:var(--ffp-paper)}
+    footer strong{color:var(--ffp-paper)}
+    @media print{.brandbar,header.hero,.cta,.optin,nav.toc,footer .noprint,img.icons{display:none}body{background:#fff}.card{break-inside:avoid;box-shadow:none}}
+    .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+    @media (max-width:520px){.brandbar .tag{display:none!important}}
+  </style>
+</head>
+<body>
+  <div class="brandbar"><div class="wrap">
+    <img class="logo" src="/assets/ffp_wordmark_small_light.svg" alt="Fern &amp; Fine Print" width="182" height="44" style="height:44px;width:auto;display:block">
+    <div class="sr-only"><span class="name">Fern &amp; Fine Print</span></div><span class="tag" style="margin-left:auto;font-family:var(--ffp-font-accent);font-size:1.05rem;color:var(--ffp-fern)">Insurance education, minus the headache.</span>
+  </div></div>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Fern &amp; Fine Print · Free mini-course · about 15 minutes · no sign-up needed to read</div>
+        <h1>Insurance Without the Headache</h1>
+        <p class="lede">A calm, plain-English guide to health and life insurance basics, for when coverage feels like too much. Read it at your own pace. No sign-up, no sales calls.</p>
+        <span class="pill">Health basics</span><span class="pill">Life insurance basics</span><span class="pill">Printable checklist</span>
+        <p style="margin:1rem 0 0"><a class="btn" href="#m0">Start reading</a><a class="btn ghost" href="#optin">Join the waitlist</a></p>
+      </div>
+      <img class="cover" src="/course/fern-cover.svg" alt="Illustration of fern fronds" width="260" height="260" />
+    </div>
+  </header>
+  <div class="wave"></div>
+
+  <main class="wrap">
+    <nav class="toc" aria-label="Course modules">
+      <strong>What's inside</strong>
+      <ol start="0">
+        <li><a href="#m0">Welcome: you're not behind</a></li>
+        <li><a href="#m1">What "coverage" actually means</a></li>
+        <li><a href="#m2">When work insurance gets expensive (or ends)</a></li>
+        <li><a href="#m3">Affordable vs "covers everything" + checklist</a></li>
+        <li><a href="#m4">HMO vs PPO in one coffee</a></li>
+        <li><a href="#m5">Pre-existing conditions &amp; plan types that surprise people</a></li>
+        <li><a href="#m6">Life insurance in plain English</a></li>
+        <li><a href="#m7">Your next step</a></li>
+      </ol>
+    </nav>
+
+    <section class="card" id="m0">
+      <h2><span class="num">0.</span>Welcome: you're not behind <span class="time">1 min</span></h2>
+      <p>If coverage has you overwhelmed, you're not alone, and you're not "bad at adulting." Shopping for insurance is genuinely confusing. Plenty of people ask one question online and then get a pile of rushed sales calls.</p>
+      <p>This guide is meant to feel like a quiet room. Plain English, no pressure. Small plan differences can mean big bills or losing a doctor you trust, so it's worth understanding them calmly instead of deciding in a hurry.</p>
+      <p class="humor">Insurance speaks fluent alphabet soup. You don't have to.</p>
+      <div class="tip"><strong>House rule:</strong> whether you're looking at a free or low-cost option or you have more room in the budget, you get the same careful help and the same respect. You're a person, not a sale. This guide is yours even if you end up buying somewhere else.</div>
+    </section>
+
+    <img class="divider" src="/course/fern-divider.svg" alt="" width="200" height="50" />
+
+    <section class="card" id="m1">
+      <h2><span class="num">1.</span>What "coverage" actually means <span class="time">2 min</span></h2>
+      <ul class="t">
+        <li><strong>Premium:</strong> what you pay each month to keep the plan.</li>
+        <li><strong>Deductible:</strong> what you usually pay for covered care before the plan starts paying its share.</li>
+        <li><strong>Copay / coinsurance:</strong> your share when you use care (a flat amount, or a percentage).</li>
+        <li><strong>Out-of-pocket maximum:</strong> the yearly ceiling on what you pay for covered, in-network care. After you hit it, the plan generally pays 100% of covered costs for the rest of the plan year.</li>
+      </ul>
+      <div class="tip">A plan that's cheap every month can still hurt the month you need care. Look at the sick-day cost, not just the premium.</div>
+    </section>
+
+    <section class="card" id="m2">
+      <h2><span class="num">2.</span>When work insurance gets expensive (or ends) <span class="time">2 min</span></h2>
+      <ul class="t">
+        <li>Job plans can start to feel like a second rent when premiums and deductibles climb.</li>
+        <li>Losing job-based coverage usually opens a <strong>Special Enrollment Period</strong>: generally 60 days to pick a new health plan.</li>
+        <li><strong>COBRA</strong> can let you keep the same job plan for a while, but you usually pay the full premium yourself (including the part your employer used to pay).</li>
+      </ul>
+      <p class="humor">COBRA sounds dramatic because the bill often is.</p>
+      <div class="tip">Don't panic-buy the first option at midnight. Write down your end-of-coverage date, then compare options inside your window.</div>
+    </section>
+
+    <section class="card" id="m3">
+      <h2><span class="num">3.</span>Affordable vs "covers everything" <span class="time">2 min</span></h2>
+      <p>The unicorn plan (tiny premium, every doctor, every drug, tiny deductible) is rare. Real shopping is about tradeoffs:</p>
+      <ul class="t">
+        <li>Wider network ↔ often a higher cost</li>
+        <li>Lower premium ↔ often a higher deductible</li>
+        <li>The drug list (formulary) matters a lot if you take prescriptions</li>
+      </ul>
+      <p><strong>Quick checklist</strong> (tick as you go, or print this page):</p>
+      <div class="checklist">
+        <label><input type="checkbox"> My primary doctor is in-network</label>
+        <label><input type="checkbox"> The specialists I need are in-network (or I accept the tradeoff)</label>
+        <label><input type="checkbox"> I can name my deductible and out-of-pocket maximum</label>
+        <label><input type="checkbox"> My medications are covered at a cost I can live with</label>
+        <label><input type="checkbox"> I know whether the plan is ACA-compliant (see Module 5)</label>
+        <label><input type="checkbox"> This fits my enrollment window or life event</label>
+        <label><input type="checkbox"> I've thought about who depends on my income (see Module 6)</label>
+      </div>
+      <p><button class="btn navy" type="button" onclick="window.print()">Print this guide</button></p>
+    </section>
+
+    <section class="card" id="m4">
+      <h2><span class="num">4.</span>HMO vs PPO in one coffee <span class="time">2 min</span></h2>
+      <ul class="t">
+        <li><strong>HMO:</strong> usually stays inside a network, often uses a primary doctor and referrals, and often has a lower premium.</li>
+        <li><strong>PPO:</strong> more freedom to see specialists or go out of network. You usually pay more for that freedom.</li>
+        <li>Neither one is "the good one." A <strong>mismatch</strong> is what hurts: the wrong network can mean surprise bills.</li>
+      </ul>
+      <div class="tip">Before you compare plans, list your must-keep doctors and your regular prescriptions. That list does most of the sorting for you.</div>
+    </section>
+
+    <section class="card" id="m5">
+      <h2><span class="num">5.</span>Pre-existing conditions &amp; plan types that surprise people <span class="time">2 min</span></h2>
+      <ul class="t">
+        <li>ACA-compliant health plans can't refuse to cover you or charge you more because of a pre-existing condition.</li>
+        <li>Some short-term or other non-ACA products can exclude or limit coverage for conditions you already have. A low price can hide a gap.</li>
+        <li>Supplemental coverage (like dental, accident, or hospital indemnity) can sit alongside a health plan, but it is not a replacement for one.</li>
+        <li>Before you fall in love with a monthly number, ask: "Is this ACA-compliant? What does it exclude?"</li>
+      </ul>
+    </section>
+
+    <section class="card" id="m6">
+      <h2><span class="num">6.</span>Life insurance in plain English <span class="time">3 min</span></h2>
+      <p>Health insurance helps pay for care while you're here. Life insurance pays money to the people you choose (your beneficiaries) if you die while the policy is in force. It's about who would be left holding the bills.</p>
+      <p><strong>Two basic families of life insurance:</strong></p>
+      <ul class="t">
+        <li><strong>Term life:</strong> covers you for a set period (for example 10, 20, or 30 years). It generally gives the most protection per premium dollar and usually builds no cash value. Many term policies can be renewed, usually at a higher premium.</li>
+        <li><strong>Permanent life</strong> (whole life, universal life and others): meant to last your lifetime and may build cash value. Because of that savings piece, premiums tend to be higher.</li>
+      </ul>
+      <p><strong>How much? Start with questions, not a magic number:</strong></p>
+      <ul class="t">
+        <li>Does anyone depend on my income? How much of the household income do I provide?</li>
+        <li>What debts would be left (mortgage, car, cards)? What would final expenses cost?</li>
+        <li>Do I want to help with a child's education, or leave something to family or a cause?</li>
+        <li>If I have life insurance through work, is it enough? And what happens to it if I leave the job?</li>
+      </ul>
+      <p>Rules of thumb like "a multiple of your salary" are only rough starting points. Adding up real needs, then subtracting savings and coverage you already have, gives a clearer picture.</p>
+      <p><strong>When people usually revisit it:</strong> marriage or a new partner, a new baby, buying a home, a job change (especially losing work coverage), or a child leaving home.</p>
+      <p class="humor">Nobody enjoys this topic. It's still kinder to think about it now than to leave someone else to figure it out later.</p>
+      <div class="tip">If nobody depends on your income and your final expenses are covered, you may need little or no life insurance. That's a perfectly good answer too.</div>
+    </section>
+
+    <section class="card" id="m7">
+      <h2><span class="num">7.</span>Your next step <span class="time">1 min</span></h2>
+      <p>Three questions before you buy health coverage:</p>
+      <ol>
+        <li>Can I see my doctors?</li>
+        <li>What do I pay if I get sick?</li>
+        <li>Is this the right enrollment window?</li>
+      </ol>
+      <p>And one for life insurance: <strong>who would need help if my income stopped?</strong></p>
+      <p>You're allowed to protect your health and your family without being treated like a transaction. Take it one step at a time: tick the checklist in Module 3, write down your dates, and come back to this page whenever you need it.</p>
+    </section>
+
+    <section class="optin" id="optin">
+      <h2>Join the waitlist &mdash; opening soon</h2>
+      <p style="margin:.2rem 0 .4rem">Email sign-up isn't open yet, so there's nothing to fill in today. The whole course is free right here on this page, and you can print the checklist in Module 3 anytime.</p>
+      <p class="fine">See the <a href="/privacy.html">course privacy notice</a>.</p>
+    </section>
+
+    <section class="cta" id="next">
+      <h2>Want to go deeper?</h2>
+      <p style="opacity:.92">If this helped, a set of optional printable tools is on the way, starting with the <strong>Coverage Confidence Kit</strong>: a plan-comparison worksheet, a "what to gather before you shop" list, a 1-page glossary, and a doctor/drug coverage call script.</p>
+            <a class="btn" href="#optin">Waitlist opening soon</a>
+      <p style="font-size:.86rem;margin:.9rem 0 0;opacity:.85">Optional and educational only. This course and these guides are not an offer of insurance, not a recommendation of any plan, and not required for anything. Free help choosing Marketplace coverage is available at <a href="https://www.healthcare.gov/" style="color:var(--ffp-paper)" rel="noopener" target="_blank">HealthCare.gov</a>.</p>
+    </section>
+
+    <section class="card about" id="about">
+      <img src="/course/suzelaine_headshot.jpg" alt="Suzelaine Similien" width="150" height="198" loading="lazy" />
+      <div>
+        <h2 style="margin-top:0">Who writes this</h2>
+        <p><strong>Suzelaine Similien</strong>, creator of Fern &amp; Fine Print</p>
+        <p>Suzelaine writes plain-English guides to health, life, and supplemental coverage, for people who are tired of jargon and sales pressure. Fern &amp; Fine Print is her separate education business and does not sell insurance.</p>
+      </div>
+    </section>
+
+    <section class="card sources" id="sources">
+      <h2 style="font-size:1rem">Sources (so you can check us)</h2>
+      <ul>
+        <li>Losing job-based coverage, 60-day Special Enrollment Period, COBRA: <a href="https://www.healthcare.gov/have-job-based-coverage/if-you-lose-job-based-coverage/" rel="noopener" target="_blank">HealthCare.gov</a></li>
+        <li>Out-of-pocket maximum: <a href="https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" rel="noopener" target="_blank">HealthCare.gov glossary</a> · Deductible: <a href="https://www.healthcare.gov/glossary/deductible/" rel="noopener" target="_blank">HealthCare.gov glossary</a></li>
+        <li>Pre-existing conditions: <a href="https://www.healthcare.gov/coverage/pre-existing-conditions/" rel="noopener" target="_blank">HealthCare.gov</a></li>
+        <li>Term vs permanent life, how much coverage: <a href="https://content.naic.org/consumer/life-insurance.htm" rel="noopener" target="_blank">NAIC consumer guide</a> and <a href="https://content.naic.org/sites/default/files/publication-lig-lp-consumer-life.pdf" rel="noopener" target="_blank">NAIC Life Insurance Buyer's Guide (PDF)</a></li>
+        <li>Needs-based approach to "how much": <a href="https://www.iii.org/article/how-much-life-insurance-do-i-need" rel="noopener" target="_blank">Insurance Information Institute</a></li>
+      </ul>
+      <p>Links go to outside sites. We're not affiliated with them.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>Educational only.</strong> This guide is general information, not advice for your situation. It is not a guarantee of savings, approval, eligibility, or plan availability. Coverage, eligibility, and pricing depend on the insurer, underwriting, and your state. Plan rules vary by state and product; always read the plan's own documents.</p>
+      <p>Not affiliated with or endorsed by CMS, HealthCare.gov, Medicare, Medicaid, or any government agency. Fern &amp; Fine Print is not an insurance company or agency. The author, Suzelaine Similien, is a licensed insurance agent (NPN 16685113); this disclosure is provided for transparency.</p>
+      <p><strong>Fern &amp; Fine Print courses and guides do not sell, quote, or recommend insurance.</strong> This course is not an offer of insurance and is not a solicitation to buy any policy. Buying a guide is never required for anything and doesn't affect any insurance quote or eligibility.</p>
+      <p class="noprint">© <span id="yr">2026</span> Fern &amp; Fine Print · Insurance education, minus the headache. · By Suzelaine Similien · <a href="/privacy.html">Privacy</a></p>
+    </div>
+  </footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
