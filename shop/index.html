@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shop: guides &amp; tools (coming soon) · Fern &amp; Fine Print</title>
-  <meta name="description" content="Optional printable guides and courses from Fern &amp; Fine Print, coming soon. Start with the free mini-course, Insurance Without the Headache. Educational only." />
+  <title>Shop · Fern &amp; Fine Print</title>
+  <meta name="description" content="The Coverage Confidence Kit ($7, coming soon) and the free mini-course Insurance Without the Headache, from Fern &amp; Fine Print. Educational only." />
   <link rel="canonical" href="https://fernandfineprint.com/shop/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Fern &amp; Fine Print" />
-  <meta property="og:title" content="Shop: guides &amp; tools (coming soon) · Fern &amp; Fine Print" />
-  <meta property="og:description" content="Optional printable guides and courses, coming soon. Start with the free mini-course." />
+  <meta property="og:title" content="Shop · Fern &amp; Fine Print" />
+  <meta property="og:description" content="Start with the free mini-course. The $7 Coverage Confidence Kit is coming soon." />
   <meta property="og:url" content="https://fernandfineprint.com/shop/" />
   <meta name="theme-color" content="#2E4A3B" />
   <link rel="icon" href="/assets/favicon.ico" sizes="any" />
@@ -101,8 +101,7 @@
     .hp{position:absolute;left:-9999px;height:0;overflow:hidden}
     /* shop */
     .product{display:flex;flex-direction:column}
-    .product .tag{align-self:flex-start;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;font-weight:800;color:var(--ffp-fern);background:var(--ffp-fiddle);border-radius:999px;padding:.15rem .6rem;margin-bottom:.55rem}
-    .product .tag.bundle{background:var(--ffp-parch);color:var(--ffp-clay)}
+    .product .tag,.offer .tag{align-self:flex-start;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;font-weight:800;color:var(--ffp-fern);background:var(--ffp-fiddle);border-radius:999px;padding:.15rem .6rem;margin-bottom:.55rem}
     .product .foot{margin-top:auto;padding-top:.9rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem}
     .price{font-family:var(--ffp-font-heading);font-size:1.45rem;font-weight:600;color:var(--ffp-fern)}
     .badge-soon{font-size:.78rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--ffp-ink);background:var(--ffp-parch);border:1px dashed var(--ffp-frond);border-radius:999px;padding:.3rem .75rem}
@@ -114,6 +113,17 @@
     @media(min-width:760px){.start-here{grid-template-columns:1fr auto}}
     .start-here h2{font-size:1.3rem;margin:0 0 .2rem}
     .start-here p{margin:0}
+    .offers{display:grid;gap:1.2rem;align-items:stretch}
+    @media(min-width:820px){.offers{grid-template-columns:1fr 1fr}}
+    .offer{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.4rem 1.4rem 1.3rem;box-shadow:0 2px 10px rgba(30,43,36,.06);display:flex;flex-direction:column}
+    .offer.free{border:2px solid var(--ffp-frond)}
+    .offer h2{font-size:1.45rem;margin:.1rem 0 .35rem}
+    .offer .sub{margin:0 0 .8rem}
+    .offer ul{margin:.2rem 0 1rem;padding-left:1.2rem}
+    .offer li{margin:.3rem 0}
+    .offer .buy{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1rem;padding-top:.6rem;border-top:1px solid var(--line)}
+    .offer .price{font-size:1.7rem}
+    .offer .btn{margin:0}
     /* about */
     .about{display:grid;gap:1.25rem;align-items:start}
     @media(min-width:640px){.about{grid-template-columns:170px 1fr}}
@@ -150,37 +160,51 @@
 
   <header class="page-head">
     <div class="wrap">
-      <div class="eyebrow">Shop · coming soon</div>
-      <h1>Guides &amp; tools</h1>
-      <p class="lede">Optional, plain-English guides you can print, fill in, and keep. The shop isn't open yet, so nothing is for sale today. Prices are listed so you know what's coming.</p>
+      <div class="eyebrow">Shop</div>
+      <h1>Start free. Add the kit when you're ready.</h1>
+      <p class="lede">Two calm, plain-English ways to get your insurance paperwork in order. Begin with the free mini-course; the printable kit is coming soon.</p>
     </div>
   </header>
   <div class="wave"></div>
 
   <main id="main">
-    <section class="band" aria-labelledby="shop-title">
+    <section class="band" aria-label="Offers">
       <div class="wrap">
-        <div class="start-here">
-          <div>
-            <div class="eyebrow" style="color:var(--ffp-fern)">Start here, it's free</div>
-            <h2>Insurance Without the Headache</h2>
-            <p>New to all this? Begin with the free mini-course. It takes about 15 minutes to read online, and the guides below build on it.</p>
-          </div>
-          <p><a class="btn navy" href="/course/">Start the free mini-course</a></p>
+        <div class="offers">
+          <article class="offer free" aria-labelledby="free-title">
+            <span class="tag" style="align-self:flex-start">Start here · free</span>
+            <h2 id="free-title">Insurance Without the Headache</h2>
+            <p class="sub">A free mini-course on health and life insurance basics, in plain English. About 15 minutes to read.</p>
+            <ul>
+              <li><strong>8 short lessons</strong>, from "what coverage actually means" to HMO vs PPO and life insurance basics</li>
+              <li><strong>Read it free online</strong>, no sign-up needed</li>
+              <li><strong>Optional printable PDF</strong> (39 pages) with every worksheet</li>
+            </ul>
+            <div class="buy">
+              <span class="price">Free</span>
+              <a class="btn navy" href="/course/">Read it free online</a>
+              <a class="btn outline" href="/#free-course">Get the PDF</a>
+            </div>
+          </article>
+
+          <article class="offer" aria-labelledby="kit-title">
+            <span class="tag" style="align-self:flex-start">Printable kit · coming soon</span>
+            <h2 id="kit-title">The Coverage Confidence Kit</h2>
+            <p class="sub">Compare health plans on paper, in plain English, before you pick one. 5 printable tools:</p>
+            <ul>
+              <li><strong>1 plan-comparison worksheet:</strong> premium, deductible, out-of-pocket max, and network, side by side</li>
+              <li><strong>1 "what to gather before you shop" checklist</strong> of the documents to have on hand</li>
+              <li><strong>1 one-page glossary</strong> of common insurance words</li>
+              <li><strong>1 "is my doctor or drug covered?" call script</strong> with questions to ask a plan</li>
+              <li><strong>1 Open Enrollment checklist and deadline calendar</strong></li>
+            </ul>
+            <div class="buy">
+              <span class="price">$7</span>
+              <span class="badge-soon">Coming soon</span>
+            </div>
+          </article>
         </div>
-        <h2 id="shop-title" class="sr-only" style="position:absolute;left:-9999px">All guides</h2>
-        <div class="grid three">
-          <article class="card product"><span class="tag">Printable kit</span><h3>The Coverage Confidence Kit</h3><p>A calmer way to shop for a health plan: a plan-comparison worksheet, a "what to gather before you shop" list, a one-page glossary, and a doctor-and-drug coverage call script.</p><div class="foot"><span class="price">$7</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag">Printable guide</span><h3>Medical Bill Decoder</h3><p>Read a medical bill and your Explanation of Benefits side by side, match them line by line, and spot common errors like duplicate charges.</p><div class="foot"><span class="price">$12</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag">Printable toolkit</span><h3>Be Your Own Bill Advocate</h3><p>A do-it-yourself toolkit for a hospital bill you owe: letter templates, phone scripts, and a call log for asking about itemized bills, financial assistance, and payment plans. You make the calls; we show you how.</p><div class="foot"><span class="price">$47</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag">Printable planner</span><h3>Family Coverage Planner</h3><p>Think ahead about coverage around life events: marriage, a new baby, kids aging off a plan at 26, job changes, and moves, with a family policy binder.</p><div class="foot"><span class="price">$27</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag">Online course</span><h3>Insurance Without the Headache: Complete Course</h3><p>The full course: health basics, choosing a plan, using your coverage, claims and appeals, life insurance, and a yearly insurance checkup, with all worksheets.</p><div class="foot"><span class="price">$97</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag bundle">Bundle</span><h3>Everything Bundle</h3><p>Every Fern &amp; Fine Print guide plus the Complete Course, together at one price.</p><div class="foot"><span class="price">$67</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag bundle">Bundle</span><h3>The Paper Trail Bundle</h3><p>Everything in The Paper Trail line, for using the coverage you already have: denials and appeals, prior authorization, surprise bills, and the Be Your Own Bill Advocate toolkit.</p><div class="foot"><span class="price">$87</span><span class="badge-soon">Coming soon</span></div></article>
-          <article class="card product"><span class="tag bundle">Bundle</span><h3>The Whole Trail</h3><p>The Everything Bundle and The Paper Trail Bundle together: every guide and course, each counted once.</p><div class="foot"><span class="price">$137</span><span class="badge-soon">Coming soon</span></div></article>
-        </div>
-        <p class="fine shop-note">All guides are general education. They don't recommend a plan, include enrollment help, or promise savings or any outcome. Buying a guide is never required for anything. Member log-in opens when the shop does.</p>
-        <p style="margin-top:1rem"><a class="btn outline" href="/course/">Read the free course first</a></p>
+        <p class="fine shop-note">New to all this? Start with the free course first; the kit builds on it. The kit is general education: it doesn't recommend a plan, include enrollment help, or promise savings or any outcome. Buying it is never required for anything. The shop and member log-in aren't open yet, so nothing can be bought here today.</p>
       </div>
     </section>
   </main>
