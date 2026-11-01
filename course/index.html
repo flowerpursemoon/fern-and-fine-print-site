@@ -65,6 +65,15 @@
     .consent label{display:flex;gap:.5rem;align-items:flex-start}
     .consent input{margin-top:.25rem;flex:none}
     .fine{font-size:.8rem;color:var(--muted)}
+    .opt-label{font-weight:400;color:var(--muted)}
+    .hint{display:block;font-size:.78rem;color:var(--muted);margin-top:.2rem}
+    .field input:focus{outline:3px solid var(--ffp-fiddle);border-color:var(--ffp-fern)}
+    .field input[aria-invalid="true"]{border-color:var(--ffp-clay)}
+    .field input:disabled,.consent input:disabled{opacity:.6;cursor:not-allowed}
+    #signup-submit{margin:.4rem 0 0;width:100%}
+    @media(min-width:560px){#signup-submit{width:auto}}
+    #signup-submit:disabled{opacity:.55;cursor:not-allowed}
+    #thanks-panel:focus{outline:none}
     .msg{display:none;border-radius:10px;padding:.7rem .9rem;margin:.6rem 0;font-size:.93rem}
     .msg.err{display:block;background:var(--ffp-paper);color:var(--ffp-clay);border:1px solid var(--ffp-clay)}
     .msg.ok{display:block;background:var(--ffp-fiddle);color:var(--ffp-fern)}
@@ -90,11 +99,11 @@
   <header class="hero">
     <div class="wrap hero-grid">
       <div>
-        <div class="eyebrow">Fern &amp; Fine Print · Free mini-course · about 15 minutes · no sign-up needed to read</div>
+        <div class="eyebrow">Fern &amp; Fine Print · Free mini-course · about 15 minutes · free printable PDF</div>
         <h1>Insurance Without the Headache</h1>
-        <p class="lede">A calm, plain-English guide to health and life insurance basics, for when coverage feels like too much. Read it at your own pace. No sign-up, no sales calls.</p>
+        <p class="lede">A calm, plain-English guide to health and life insurance basics, for when coverage feels like too much. Read it right here, or grab the printable PDF with all eight worksheets. No sales calls.</p>
         <span class="pill">Health basics</span><span class="pill">Life insurance basics</span><span class="pill">Printable checklist</span>
-        <p style="margin:1rem 0 0"><a class="btn" href="#m0">Start reading</a><a class="btn ghost" href="#optin">Join the waitlist</a></p>
+        <p style="margin:1rem 0 0"><a class="btn" href="#m0">Start reading</a><a class="btn ghost" href="#optin">Get the free PDF</a></p>
       </div>
       <img class="cover" src="/course/fern-cover.svg" alt="Illustration of fern fronds" width="260" height="260" />
     </div>
@@ -111,7 +120,7 @@
         <li><a href="#m3">Affordable vs "covers everything" + checklist</a></li>
         <li><a href="#m4">HMO vs PPO in one coffee</a></li>
         <li><a href="#m5">Pre-existing conditions &amp; plan types that surprise people</a></li>
-        <li><a href="#m6">Life insurance in plain English</a></li>
+        <li><a href="#m6">Life insurance and your health coverage</a></li>
         <li><a href="#m7">Your next step</a></li>
       </ol>
     </nav>
@@ -190,24 +199,19 @@
     </section>
 
     <section class="card" id="m6">
-      <h2><span class="num">6.</span>Life insurance in plain English <span class="time">3 min</span></h2>
-      <p>Health insurance helps pay for care while you're here. Life insurance pays money to the people you choose (your beneficiaries) if you die while the policy is in force. It's about who would be left holding the bills.</p>
-      <p><strong>Two basic families of life insurance:</strong></p>
+      <h2><span class="num">6.</span>Life insurance and your health coverage <span class="time">4 min</span></h2>
+      <p>Health insurance helps pay for care while you're here. Life insurance pays money to the people you choose (your beneficiaries) if you die while the policy is in force. A health plan doesn't include life insurance, and the Marketplace can't sell it. But life-type benefits often travel <em>with</em> health coverage, as separate policies or riders with their own rules.</p>
+      <p><strong>Where they show up:</strong></p>
       <ul class="t">
-        <li><strong>Term life:</strong> covers you for a set period (for example 10, 20, or 30 years). It generally gives the most protection per premium dollar and usually builds no cash value. Many term policies can be renewed, usually at a higher premium.</li>
-        <li><strong>Permanent life</strong> (whole life, universal life and others): meant to last your lifetime and may build cash value. Because of that savings piece, premiums tend to be higher.</li>
+        <li><strong>At work:</strong> basic group life, often with AD&amp;D, usually with no health questions up to a set amount. It typically ends when the job ends, and COBRA doesn't continue it, so ask about converting or porting it before your last day.</li>
+        <li><strong>AD&amp;D (accidental death and dismemberment):</strong> pays only if death or a listed injury is caused by an accident. It doesn't pay for illness, and "accidental" has its own list of exclusions.</li>
+        <li><strong>Health packages and supplemental policies:</strong> some include a small life benefit or AD&amp;D rider that may end if you drop the package.</li>
+        <li><strong>Guaranteed or simplified issue life:</strong> few or no health questions, but smaller amounts and higher cost per dollar of coverage. Many have a graded benefit, commonly for about two years, that pays back premiums (often plus interest) instead of the full amount if death is from illness.</li>
+        <li><strong>Living benefits:</strong> an accelerated death benefit can pay part of a life policy early for a terminal illness, which reduces what beneficiaries get.</li>
       </ul>
-      <p><strong>How much? Start with questions, not a magic number:</strong></p>
-      <ul class="t">
-        <li>Does anyone depend on my income? How much of the household income do I provide?</li>
-        <li>What debts would be left (mortgage, car, cards)? What would final expenses cost?</li>
-        <li>Do I want to help with a child's education, or leave something to family or a cause?</li>
-        <li>If I have life insurance through work, is it enough? And what happens to it if I leave the job?</li>
-      </ul>
-      <p>Rules of thumb like "a multiple of your salary" are only rough starting points. Adding up real needs, then subtracting savings and coverage you already have, gives a clearer picture.</p>
-      <p><strong>When people usually revisit it:</strong> marriage or a new partner, a new baby, buying a home, a job change (especially losing work coverage), or a child leaving home.</p>
+      <p>Some supplemental policies and riders also exclude pre-existing conditions for a while, commonly up to about 12 months. Rules vary by policy and state, so check your own paperwork.</p>
       <p class="humor">Nobody enjoys this topic. It's still kinder to think about it now than to leave someone else to figure it out later.</p>
-      <div class="tip">If nobody depends on your income and your final expenses are covered, you may need little or no life insurance. That's a perfectly good answer too.</div>
+      <div class="tip">For every benefit, ask: what does it pay, for what (any cause or accidents only), and until when? These benefits can help when health makes a traditional policy hard to get, but they have limits.</div>
     </section>
 
     <section class="card" id="m7">
@@ -222,16 +226,41 @@
       <p>You're allowed to protect your health and your family without being treated like a transaction. Take it one step at a time: tick the checklist in Module 3, write down your dates, and come back to this page whenever you need it.</p>
     </section>
 
-    <section class="optin" id="optin">
-      <h2>Join the waitlist &mdash; opening soon</h2>
-      <p style="margin:.2rem 0 .4rem">Email sign-up isn't open yet, so there's nothing to fill in today. The whole course is free right here on this page, and you can print the checklist in Module 3 anytime.</p>
-      <p class="fine">See the <a href="/privacy.html">course privacy notice</a>.</p>
+    <section class="optin" id="optin" aria-labelledby="optin-title">
+      <div id="signup-panel">
+        <h2 id="optin-title">Get the free printable PDF</h2>
+        <p style="margin:.2rem 0 .8rem">All eight lessons, every worksheet, and a 50-state directory of free, official help, in one 39-page PDF you can print or keep on your phone. Tell us where to send the course and the download unlocks right away.</p>
+        <form id="signup-form" novalidate>
+          <div class="row two">
+            <div class="field"><label for="su-first">First name</label><input id="su-first" name="first_name" type="text" autocomplete="given-name" required maxlength="60"></div>
+            <div class="field"><label for="su-last">Last name <span class="opt-label">(optional)</span></label><input id="su-last" name="last_name" type="text" autocomplete="family-name" maxlength="60"></div>
+          </div>
+          <div class="row two" style="margin-top:.7rem">
+            <div class="field"><label for="su-email">Email</label><input id="su-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="120"></div>
+            <div class="field"><label for="su-phone">Mobile phone</label><input id="su-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder="(555) 555-0123" aria-describedby="su-phone-hint"><span class="hint" id="su-phone-hint">US numbers. Add + and a country code for outside the US.</span></div>
+          </div>
+          <div class="hp" aria-hidden="true"><label for="su-website">Leave this empty</label><input id="su-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <div class="consent">
+            <label for="su-sms"><input id="su-sms" name="sms_consent" type="checkbox" value="1"> <span><strong>Optional:</strong> I agree to receive course reminder texts from Fern &amp; Fine Print. Msg &amp; data rates may apply. Reply STOP to opt out. Consent is not a condition of access.</span></label>
+          </div>
+          <p class="consent" style="margin-top:.2rem">By signing up, you agree to get the course PDF and lesson emails from Fern &amp; Fine Print, plus occasional emails about optional guides. Unsubscribe anytime. We never sell your information and never use it for insurance quotes or calls. See our <a href="/privacy.html">privacy notice</a>.</p>
+          <div class="msg" id="signup-msg" role="alert" aria-live="polite"></div>
+          <button class="btn navy" id="signup-submit" type="submit">Send me the free PDF</button>
+          <p class="fine" id="signup-closed" hidden>Downloads open soon. Sign-up isn't switched on yet, so nothing you type here is sent anywhere. The whole course is free to read on this page in the meantime.</p>
+        </form>
+      </div>
+      <div id="thanks-panel" hidden tabindex="-1">
+        <h2>You're in. Here's your copy.</h2>
+        <p style="margin:.2rem 0 .8rem">Thanks<span id="thanks-name"></span>! Your free PDF of <em>Insurance Without the Headache</em> is ready. Save it, print the worksheets, and come back whenever a new insurance question shows up.</p>
+        <a class="btn navy" id="pdf-download" href="/downloads/insurance-without-the-headache.pdf" download="insurance-without-the-headache.pdf">Download the PDF (39 pages)</a>
+        <p class="fine" style="margin-top:.7rem">Lesson emails will come from Fern &amp; Fine Print. If you don't see them, check your spam or promotions folder. Educational only.</p>
+      </div>
     </section>
 
     <section class="cta" id="next">
       <h2>Want to go deeper?</h2>
       <p style="opacity:.92">If this helped, a set of optional printable tools is on the way, starting with the <strong>Coverage Confidence Kit</strong>: a plan-comparison worksheet, a "what to gather before you shop" list, a 1-page glossary, and a doctor/drug coverage call script.</p>
-            <a class="btn" href="#optin">Waitlist opening soon</a>
+            <a class="btn" href="#optin">Get the free course PDF</a>
       <p style="font-size:.86rem;margin:.9rem 0 0;opacity:.85">Optional and educational only. This course and these guides are not an offer of insurance, not a recommendation of any plan, and not required for anything. Free help choosing Marketplace coverage is available at <a href="https://www.healthcare.gov/" style="color:var(--ffp-paper)" rel="noopener" target="_blank">HealthCare.gov</a>.</p>
     </section>
 
@@ -252,6 +281,9 @@
         <li>Pre-existing conditions: <a href="https://www.healthcare.gov/coverage/pre-existing-conditions/" rel="noopener" target="_blank">HealthCare.gov</a></li>
         <li>Term vs permanent life, how much coverage: <a href="https://content.naic.org/consumer/life-insurance.htm" rel="noopener" target="_blank">NAIC consumer guide</a> and <a href="https://content.naic.org/sites/default/files/publication-lig-lp-consumer-life.pdf" rel="noopener" target="_blank">NAIC Life Insurance Buyer's Guide (PDF)</a></li>
         <li>Needs-based approach to "how much": <a href="https://www.iii.org/article/how-much-life-insurance-do-i-need" rel="noopener" target="_blank">Insurance Information Institute</a></li>
+        <li>Group life, AD&amp;D riders, accelerated death benefits: <a href="https://www.tdi.texas.gov/pubs/consumer/cb018.html" rel="noopener" target="_blank">Texas Department of Insurance life insurance guide</a></li>
+        <li>COBRA doesn't cover life-only plans: <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/workers-guide-health-benefits-cobra" rel="noopener" target="_blank">U.S. Department of Labor</a> · Marketplaces can't sell life insurance: <a href="https://www.cms.gov/cciio/resources/files/downloads/ancillary-product-faq-03-29-2013.pdf" rel="noopener" target="_blank">CMS FAQ (PDF)</a></li>
+        <li>Guaranteed issue and graded death benefits: <a href="https://www.doi.sc.gov/973/Common-Life-Insurance-Questions" rel="noopener" target="_blank">South Carolina Department of Insurance</a> and <a href="https://www.dfs.ny.gov/consumers/life_insurance" rel="noopener" target="_blank">New York DFS</a> · Pre-existing condition limits: <a href="https://content.naic.org/sites/default/files/model-law-171.pdf" rel="noopener" target="_blank">NAIC Model Regulation #171 (PDF)</a></li>
       </ul>
       <p>Links go to outside sites. We're not affiliated with them.</p>
     </section>
@@ -266,6 +298,99 @@
     </div>
   </footer>
 
+<script>
+/* ===== Fern & Fine Print course sign-up ======================================
+   ONE value to set before go-live: FFP_SIGNUP_ENDPOINT.
+   - Brevo (recommended): paste the form's action URL from Brevo > Contacts > Forms >
+     your form > Embed (HTML), e.g. "https://xxxxxxxx.sibforms.com/serve/MUIF...".
+     Field names sent: FIRSTNAME, LASTNAME, EMAIL, SMS (E.164, e.g. +15555550123),
+     SMS_CONSENT (Boolean attribute you create in Brevo), email_address_check (honeypot), locale.
+   - Any JSON form backend (Formspree, Basin, your own Render service): paste its URL;
+     it receives JSON {first_name,last_name,email,phone,sms_consent,sms_consent_text,consent_at,source}.
+   Leave it "" and the form stays switched off (no data is sent, no download unlocks).
+   This must never point at the insurance CRM. */
+var FFP_SIGNUP_ENDPOINT = "";
+
+(function(){
+  var SMS_TEXT = "I agree to receive course reminder texts from Fern & Fine Print. Msg & data rates may apply. Reply STOP to opt out. Consent is not a condition of access.";
+  var form = document.getElementById('signup-form');
+  if (!form) return;
+  var panel = document.getElementById('signup-panel'), thanks = document.getElementById('thanks-panel');
+  var msg = document.getElementById('signup-msg'), btn = document.getElementById('signup-submit');
+  var KEY = 'ffp_course_pdf_unlocked';
+
+  function showThanks(name, focus){
+    panel.hidden = true; thanks.hidden = false;
+    document.getElementById('thanks-name').textContent = name ? ', ' + name : '';
+    if (focus) thanks.focus();
+  }
+  function say(text, kind){ msg.textContent = text; msg.className = 'msg ' + (kind || 'err'); }
+
+  // Returning visitor who already signed up on this device
+  try { var saved = JSON.parse(localStorage.getItem(KEY) || 'null'); if (saved && FFP_SIGNUP_ENDPOINT) { showThanks(saved.name, false); return; } } catch(e){}
+
+  if (!FFP_SIGNUP_ENDPOINT) {
+    Array.prototype.forEach.call(form.querySelectorAll('input,button'), function(el){ el.disabled = true; });
+    btn.textContent = 'Downloads open soon';
+    document.getElementById('signup-closed').hidden = false;
+    return;
+  }
+
+  function toE164(raw){
+    var t = (raw || '').trim();
+    if (/^\+/.test(t)) { var d = t.replace(/\D/g, ''); return (d.length >= 8 && d.length <= 15) ? '+' + d : null; }
+    var digits = t.replace(/\D/g, '');
+    if (digits.length === 11 && digits.charAt(0) === '1') digits = digits.slice(1);
+    return /^[2-9]\d{2}[2-9]\d{6}$/.test(digits) ? '+1' + digits : null;
+  }
+  function mark(el, bad){ el.setAttribute('aria-invalid', bad ? 'true' : 'false'); }
+
+  form.addEventListener('input', function(ev){
+    if (ev.target.getAttribute('aria-invalid') === 'true') ev.target.setAttribute('aria-invalid', 'false');
+    if (msg.className.indexOf('err') >= 0) msg.className = 'msg';
+  });
+
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var f = form.elements;
+    if (f.website.value) { showThanks('', true); return; } // bot trap
+    var first = f.first_name.value.trim(), last = f.last_name.value.trim(), email = f.email.value.trim();
+    var phone = toE164(f.phone.value), sms = f.sms_consent.checked;
+    var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email);
+    mark(f.first_name, !first); mark(f.email, !emailOk); mark(f.phone, !phone);
+    if (!first) { say('Please add your first name.'); f.first_name.focus(); return; }
+    if (!emailOk) { say('Please check your email address.'); f.email.focus(); return; }
+    if (!phone) { say('Please enter a valid mobile number, like (555) 555-0123.'); f.phone.focus(); return; }
+    msg.className = 'msg'; btn.disabled = true; btn.textContent = 'Sending...';
+
+    var url = FFP_SIGNUP_ENDPOINT, req;
+    if (/sibforms\.com/.test(url)) {
+      var fd = new FormData();
+      fd.append('FIRSTNAME', first); if (last) fd.append('LASTNAME', last);
+      fd.append('EMAIL', email); fd.append('SMS', phone);
+      if (sms) fd.append('SMS_CONSENT', '1');
+      fd.append('email_address_check', ''); fd.append('locale', 'en');
+      req = fetch(url + (url.indexOf('?') < 0 ? '?' : '&') + 'isAjax=1', { method: 'POST', body: fd });
+    } else {
+      req = fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ first_name: first, last_name: last, email: email, phone: phone, sms_consent: sms,
+          sms_consent_text: sms ? SMS_TEXT : '', consent_at: new Date().toISOString(), source: 'course-pdf', page: location.href }) });
+    }
+    req.then(function(r){
+      return r.text().then(function(t){
+        var data = null; try { data = JSON.parse(t); } catch(e){}
+        if (!r.ok || (data && data.success === false)) throw new Error((data && data.message) || ('HTTP ' + r.status));
+      });
+    }).then(function(){
+      try { localStorage.setItem(KEY, JSON.stringify({ name: first, at: Date.now() })); } catch(e){}
+      showThanks(first, true);
+    }).catch(function(){
+      btn.disabled = false; btn.textContent = 'Send me the free PDF';
+      say("Sorry, that didn't go through. Please check your details and try again. If you've signed up before with this phone number, check your email for the course.");
+    });
+  });
+})();
+</script>
 <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>
