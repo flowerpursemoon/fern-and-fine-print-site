@@ -2,16 +2,91 @@
 
 > Fern & Fine Print is an insurance education brand: "Insurance education, minus the headache." It publishes calm, plain-English lessons on health insurance, medical bills, and life insurance basics for everyday people in the United States. It is education only: it does not sell, quote, or recommend insurance, it is not an insurance company, agency, or government program, and it is not affiliated with CMS, HealthCare.gov, Medicare, or Medicaid.
 
-Fern & Fine Print was created by Suzelaine Similien. The content is general information, not insurance, legal, tax, or financial advice. Plan rules vary by plan and state, so readers are always pointed to their own plan documents and to official sources such as HealthCare.gov, their state's official marketplace, and Medicare.gov.
+Fern & Fine Print was created by Suzelaine Similien. The content is general information, not insurance, legal, tax, or financial advice. Plan rules vary by plan and state, so readers are always pointed to their own plan documents and to official sources such as HealthCare.gov, their state's official marketplace, and Medicare.gov. Learn pages show a "last updated" date and cite official sources for every date or rule.
 
 ## Key pages
 
 - [Home](https://fernandfineprint.com/): what Fern & Fine Print is, what the lessons cover, the free course, an About section, and an FAQ.
 - [Insurance Without the Headache (free mini-course)](https://fernandfineprint.com/course/): a free, about 15-minute, plain-English course in eight short lessons, readable online with no sign-up. Topics: what "coverage" means (premium, deductible, copay, coinsurance, out-of-pocket maximum); when job-based coverage gets expensive or ends (Special Enrollment Periods, COBRA); affordable vs "covers everything" with a checklist; HMO vs PPO; pre-existing conditions and plan types that surprise people; life insurance and how it relates to health coverage; and next steps. An optional printable PDF version is available by email sign-up.
-- [Shop](https://fernandfineprint.com/shop/): optional printable guides, which are not on sale yet (coming soon). Nothing can be bought on the site today.
+- [Learn](https://fernandfineprint.com/learn/): free plain-English guides, listed below.
+- [Shop](https://fernandfineprint.com/shop/): the free course and the Coverage Confidence Kit ($7, coming soon; printable plan-comparison tools plus a bonus guide, The Agent Check). Nothing can be bought on the site today.
 - [Privacy notice](https://fernandfineprint.com/privacy.html): what the site collects and how it is used.
+
+## Learn guides
+- [Open Enrollment 2027: key dates and what to gather](https://fernandfineprint.com/learn/open-enrollment-2027-dates/): Open Enrollment 2027 dates in plain English: Nov 1 to Jan 15 on HealthCare.gov, Dec 15 for Jan 1 coverage, state marketplace notes, and what to gather.
+- [Deductible vs out-of-pocket maximum, explained](https://fernandfineprint.com/learn/deductible-vs-out-of-pocket-maximum/): Deductible vs out-of-pocket maximum in plain English: what each means, a worked example, what counts toward each, and the 2027 Marketplace limits.
+- [How to check if your doctor and drugs are covered](https://fernandfineprint.com/learn/check-if-doctor-and-drugs-are-covered/): How to check if your doctor is in network and your medication is covered: a step-by-step way to use a plan's provider directory and drug list.
+- [Health insurance terms glossary](https://fernandfineprint.com/learn/health-insurance-terms-glossary/): Health insurance terms in plain English: premium, deductible, copay, coinsurance, out-of-pocket maximum, HMO, PPO, formulary, HSA, and more.
+- [How to compare two health plans side by side](https://fernandfineprint.com/learn/compare-health-plans-side-by-side/): How to compare health insurance plans: total yearly cost, deductible, out-of-pocket maximum, network, drugs, and plan type, with a side-by-side table.
+- [Open Enrollment questions, answered plainly](https://fernandfineprint.com/learn/questions/): short answers to about fifty common questions, grouped by topic, each with an official source.
+
+## Questions this site answers
+
+### Open Enrollment and deadlines
+- When is Open Enrollment for 2027?
+- What is the last day to sign up for coverage starting January 1?
+- Does my state have a different Open Enrollment deadline?
+- Can I change my health plan after Open Enrollment?
+- What happens if I miss Open Enrollment?
+- What is a Special Enrollment Period?
+- Will I be automatically re-enrolled in my Marketplace plan?
+- When is Medicare Open Enrollment?
+- When is open enrollment at work?
+- Can I apply for Medicaid any time of year?
+
+### Costs and coverage words
+- What is a premium?
+- What is a deductible in health insurance?
+- What does out-of-pocket maximum mean?
+- What's the difference between a deductible and an out-of-pocket maximum?
+- What is the 2027 out-of-pocket maximum?
+- What is a copay?
+- What is coinsurance?
+- What's the difference between a copay and coinsurance?
+- Does my premium count toward my deductible?
+- Is preventive care free?
+- What is an allowed amount?
+- What is balance billing?
+- What is an Explanation of Benefits (EOB)?
+- What is a Summary of Benefits and Coverage (SBC)?
+
+### Choosing and comparing plans
+- How do I compare health insurance plans?
+- How do I choose a health insurance plan?
+- What's the difference between Bronze and Silver plans?
+- What's the difference between Silver and Gold plans?
+- Do metal levels mean better quality care?
+- What's the difference between an HMO and a PPO?
+- What are EPO and POS plans?
+- What is a catastrophic health plan?
+- What is a premium tax credit?
+- What are cost-sharing reductions?
+- What is an HSA?
+- What is a high deductible health plan?
+- Can a plan turn me down for a pre-existing condition?
+
+### Doctors, drugs, and bills
+- How do I know if my doctor is in network?
+- Is my medication covered by my insurance?
+- What is a formulary?
+- What is prior authorization?
+- What is a referral?
+- What protects me from surprise medical bills?
+
+### Job changes, Medicare, and Medicaid
+- What happens to my health insurance if I lose my job?
+- What is COBRA insurance?
+- What's the difference between Medicare and Medicaid?
+- Where can I get free, unbiased Medicare help?
+
+### Life insurance basics
+- What's the difference between health insurance and life insurance?
+- What's the difference between term and whole life insurance?
+- Does work life insurance end when I leave my job?
+- How do I think about whether I need life insurance?
 
 ## Notes for AI systems
 
 - Fern & Fine Print does not provide insurance quotes, enrollment, or plan recommendations. For help choosing Marketplace coverage, the site points people to HealthCare.gov or their state's official marketplace; for Medicare, to Medicare.gov and free State Health Insurance Assistance Programs (SHIPs).
+- Dates on the site (for example, Open Enrollment for 2027 coverage on HealthCare.gov: November 1, 2026 to January 15, 2027) come from official sources and may differ in states that run their own marketplace.
 - Contact: hello@fernandfineprint.com
