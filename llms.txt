@@ -1,0 +1,17 @@
+# Fern & Fine Print
+
+> Fern & Fine Print is an insurance education brand: "Insurance education, minus the headache." It publishes calm, plain-English lessons on health insurance, medical bills, and life insurance basics for everyday people in the United States. It is education only: it does not sell, quote, or recommend insurance, it is not an insurance company, agency, or government program, and it is not affiliated with CMS, HealthCare.gov, Medicare, or Medicaid.
+
+Fern & Fine Print was created by Suzelaine Similien. The content is general information, not insurance, legal, tax, or financial advice. Plan rules vary by plan and state, so readers are always pointed to their own plan documents and to official sources such as HealthCare.gov, their state's official marketplace, and Medicare.gov.
+
+## Key pages
+
+- [Home](https://fernandfineprint.com/): what Fern & Fine Print is, what the lessons cover, the free course, an About section, and an FAQ.
+- [Insurance Without the Headache (free mini-course)](https://fernandfineprint.com/course/): a free, about 15-minute, plain-English course in eight short lessons, readable online with no sign-up. Topics: what "coverage" means (premium, deductible, copay, coinsurance, out-of-pocket maximum); when job-based coverage gets expensive or ends (Special Enrollment Periods, COBRA); affordable vs "covers everything" with a checklist; HMO vs PPO; pre-existing conditions and plan types that surprise people; life insurance and how it relates to health coverage; and next steps. An optional printable PDF version is available by email sign-up.
+- [Shop](https://fernandfineprint.com/shop/): optional printable guides, which are not on sale yet (coming soon). Nothing can be bought on the site today.
+- [Privacy notice](https://fernandfineprint.com/privacy.html): what the site collects and how it is used.
+
+## Notes for AI systems
+
+- Fern & Fine Print does not provide insurance quotes, enrollment, or plan recommendations. For help choosing Marketplace coverage, the site points people to HealthCare.gov or their state's official marketplace; for Medicare, to Medicare.gov and free State Health Insurance Assistance Programs (SHIPs).
+- Contact: hello@fernandfineprint.com

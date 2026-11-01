@@ -1,0 +1,27 @@
+# Fern & Fine Print: insurance education, minus the headache.
+# Search engines and AI answer engines are welcome to crawl this site.
+# The gated course PDFs in /downloads/ are not meant for search results.
+
+User-agent: *
+Allow: /
+Disallow: /downloads/
+
+# Named search and AI crawlers (explicitly allowed; same rules as above)
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /downloads/
+
+Sitemap: https://fernandfineprint.com/sitemap.xml
